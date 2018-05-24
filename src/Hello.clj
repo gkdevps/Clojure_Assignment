@@ -30,5 +30,19 @@
 
     (println "values are equal ")
     (println "values are not equal "))
+
+  (def c 5)
+  (case c 5 (println "C is 5 Switch case example")
+          10 (println "c is 10")
+          ("c is nothing")
+    )
+
+  ;; For different condition 'cond'
+  (def x)
+  (cond
+    (= x 5) (println "x is 5")
+    (= x 10) (println "x is 10")
+    :else (println " x is not defined")
+    )
   )
 (loo)
